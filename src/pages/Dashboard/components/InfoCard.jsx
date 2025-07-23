@@ -2,9 +2,7 @@ import React from "react";
 
 const InfoCard = ({ imgUrl, text, tagText, inverted }) => {
   return (
-    <div
-      className={`relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300`}
-    >
+    <div className="relative rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-all duration-300">
       {/* Background Image with overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center"
